@@ -99,12 +99,12 @@ button:hover {
 
 @media (max-width: 1000px) {
     .main-container {
-        max-width: 100%;
+        max-width: 50%;
     }
 
     .introduction {
-        margin: 0;
-        padding: 0;
+        align-items: center;
+        margin-right: 40px;
     }
 
     .flex-container {
@@ -113,7 +113,7 @@ button:hover {
     }
 
     .first-box {
-        height: 40vh;
+        height: 50vh;
         border-bottom-left-radius: 0;
         font-size: 20px;
     }
@@ -123,11 +123,11 @@ button:hover {
     }
 
     button {
-        padding: 15px 150px;
+        padding: 10px 50px;
     }
 
     .second-box {
-        height: 40vh;
+        height: 50vh;
         border-bottom-left-radius: 10px;
     }
     
