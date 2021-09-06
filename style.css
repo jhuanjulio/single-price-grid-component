@@ -1,0 +1,137 @@
+body {
+    background-color: hsl(201, 46%, 93%);
+}
+
+.main-container {
+    margin: 100px auto;
+    max-width: 50%;
+    font-family: 'Karla';
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 10px 10px 5px hsl(178, 37%, 80%);
+}
+
+.introduction ul {
+    padding-top: 30px;
+    list-style: none;
+    line-height: 2em;
+}
+
+.introduction p {
+    line-height: 2em;
+    margin-left: 40px;
+    color: hsl(198, 4%, 54%);
+}
+
+#header {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#description {
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.first-box {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    font-weight: lighter;
+    border-bottom-left-radius: 10px;
+}
+
+.first-box ul, .second-box ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 2em;
+    list-style: none;
+}
+
+.first-box span {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#per {
+    font-size: 16px;
+    color: hsl(220, 3%, 79%);
+}
+
+button {
+    margin-top: 25px;
+    margin-left: 40px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 100px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px rgb(83, 83, 83);
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.second-box {
+    background-color: hsl(179, 61%, 51%);
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+
+.second-box p {
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1000px) {
+    .main-container {
+        max-width: 100%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-box {
+        height: 40vh;
+        border-bottom-left-radius: 0;
+        font-size: 20px;
+    }
+
+    .first-box ul {
+        margin: 0;
+    }
+
+    button {
+        padding: 15px 200px;
+    }
+
+    button:hover {
+        transform: scale();
+    }
+
+    .second-box {
+        height: 40vh;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .second-box ul {
+        font-size: 20px;
+    }
+
+}
