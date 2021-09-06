@@ -102,6 +102,11 @@ button:hover {
         max-width: 100%;
     }
 
+    .introduction {
+        margin: 0;
+        padding: 0;
+    }
+
     .flex-container {
         display: flex;
         flex-direction: column;
@@ -118,11 +123,7 @@ button:hover {
     }
 
     button {
-        padding: 15px 200px;
-    }
-
-    button:hover {
-        transform: scale();
+        padding: 15px 150px;
     }
 
     .second-box {
